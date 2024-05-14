@@ -207,7 +207,7 @@ const Quiz = () => {
     } else if (score >= 15 && score < 20) {
         setComment(FinalScore[3].comment);
         setImage(FinalScore[3].image);
-    } else if (score == 20) {
+    } else if (score === 20) {
         setComment(FinalScore[4].comment);
         setImage(FinalScore[4].image);
     }
